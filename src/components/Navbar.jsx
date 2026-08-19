@@ -133,12 +133,12 @@ export default function Navbar() {
             </Link>
           </nav>
 
-          {/* Action Buttons: Search & Direct WhatsApp */}
+          {/* Action Buttons: Search (Hidden on Mobile) & Direct WhatsApp */}
           <div className="flex items-center space-x-2 sm:space-x-3">
-            {/* Search Trigger */}
+            {/* Search Trigger - Hidden on mobile screens (sm:inline-flex) */}
             <button 
               onClick={() => setIsSearchOpen(true)}
-              className="p-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 border border-slate-200 text-slate-700 hover:text-slate-900 transition-all"
+              className="hidden sm:inline-flex p-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 border border-slate-200 text-slate-700 hover:text-slate-900 transition-all"
               title="Search B2B Catalog & Items"
             >
               <Search className="w-4 h-4" />
@@ -149,7 +149,7 @@ export default function Navbar() {
               href={generateWhatsAppUrl()}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 border border-emerald-300 text-emerald-700 font-bold text-xs transition-all shadow-sm shrink-0"
+              className="inline-flex items-center gap-1.5 px-3 py-2 sm:px-3.5 sm:py-2.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 border border-emerald-300 text-emerald-700 font-bold text-xs transition-all shadow-sm shrink-0"
               title="Direct WhatsApp Desk (+92-300-5120535)"
             >
               <span className="w-2 h-2 rounded-full bg-emerald-600 animate-pulse" />
