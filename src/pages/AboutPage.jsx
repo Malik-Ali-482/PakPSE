@@ -32,7 +32,7 @@ export default function AboutPage() {
           </h1>
 
           <p className="text-base sm:text-xl text-slate-800 max-w-3xl mx-auto leading-relaxed font-semibold">
-            A trusted Pakistani corporate procurement & civil engineering firm providing complete supply chains across medical equipment, office fleet hardware, commercial printing, safety textiles, civil fit-outs, and IT enterprise automation.
+            A trusted Pakistani corporate procurement firm providing complete supply chains across medical equipment, office fleet hardware, commercial printing, safety textiles, civil fit-outs, and IT enterprise automation.
           </p>
 
           <div className="pt-4 flex items-center justify-center gap-4 flex-wrap">
@@ -43,7 +43,7 @@ export default function AboutPage() {
               className="px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm flex items-center gap-2 transition-all shadow-sm"
             >
               <MessageSquare className="w-4 h-4" />
-              <span>Contact Islamabad HQ ({DISPLAY_WHATSAPP})</span>
+              <span>Contact US ({DISPLAY_WHATSAPP})</span>
             </a>
             <Link
               to="/contact"
