@@ -56,26 +56,28 @@ export default function HomePage() {
             </h1>
 
             <p className="text-sm sm:text-lg text-slate-800 leading-relaxed font-semibold drop-shadow-sm max-w-2xl">
-              B2B General Order Supplier & Complete Contractor connecting public and private institutions with primary manufacturers since 2009.
+              B2B General Order Supplier & General Contractor connecting public and private institutions with primary manufacturers since 2009.
             </p>
 
-            {/* Dual Primary CTAs */}
+            {/* Dual Primary CTAs: Learn About Us & Contact Us on WhatsApp */}
             <div className="pt-2 flex flex-wrap items-center gap-3.5">
               <Link
-                to="/contact"
+                to="/about"
                 className="px-6 py-3.5 rounded-xl bg-blue-700 hover:bg-blue-800 text-white font-extrabold text-xs sm:text-sm shadow-md transition-all flex items-center gap-2 active:scale-95 border border-blue-600"
               >
-                <span>Request a Quote</span>
+                <span>Learn About Us</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
 
-              <Link
-                to="/contact"
-                className="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-100 text-slate-900 border border-slate-300 font-extrabold text-xs sm:text-sm transition-all flex items-center gap-2 shadow-sm active:scale-95"
+              <a
+                href={generateWhatsAppUrl()}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs sm:text-sm transition-all flex items-center gap-2.5 shadow-md active:scale-95 border border-emerald-500"
               >
-                <Upload className="w-4 h-4 text-emerald-600" />
-                <span>Upload Tender / BOQ Sheet</span>
-              </Link>
+                <MessageSquare className="w-4.5 h-4.5 text-white" />
+                <span>Contact Us on WhatsApp</span>
+              </a>
             </div>
 
           </div>

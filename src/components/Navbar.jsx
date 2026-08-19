@@ -28,18 +28,11 @@ export default function Navbar() {
     <header className="sticky top-0 z-40 w-full transition-all duration-300 shadow-sm">
       {/* Top B2B Compliance & Credentials Bar */}
       <div className="bg-slate-100 border-b border-slate-200 text-xs text-slate-700 py-2 px-4 sm:px-8 font-medium">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
-          <div className="flex items-center space-x-4">
-            <span className="inline-flex items-center gap-1.5 text-slate-700 font-semibold">
-              <MapPin className="w-3.5 h-3.5 text-blue-700" />
-              Islamabad, Pakistan <span className="text-slate-400">|</span> <span className="text-blue-700 font-bold">Est. 2009 • B2B Procurement</span>
-            </span>
-          </div>
-
-          <div className="flex items-center space-x-3 text-emerald-700 font-extrabold">
-            <span className="w-2 h-2 rounded-full bg-emerald-600 animate-pulse"></span>
-            <span>Government & Corporate Vendor Registered (NTN Active)</span>
-          </div>
+        <div className="max-w-7xl mx-auto flex items-center justify-center sm:justify-start">
+          <span className="inline-flex items-center gap-1.5 text-slate-700 font-semibold">
+            <MapPin className="w-3.5 h-3.5 text-blue-700" />
+            Islamabad, Pakistan <span className="text-slate-400">|</span> <span className="text-blue-700 font-bold">Est. 2009 • B2B Procurement</span>
+          </span>
         </div>
       </div>
 
@@ -133,9 +126,9 @@ export default function Navbar() {
             </Link>
           </nav>
 
-          {/* Action Buttons: Search (Hidden on Mobile) & Direct WhatsApp */}
+          {/* Action Buttons: Search (Hidden on Mobile) & Direct WhatsApp (Hidden on Mobile) */}
           <div className="flex items-center space-x-2 sm:space-x-3">
-            {/* Search Trigger - Hidden on mobile screens (sm:inline-flex) */}
+            {/* Search Trigger - Hidden on mobile screens (< 640px) */}
             <button 
               onClick={() => setIsSearchOpen(true)}
               className="hidden sm:inline-flex p-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 border border-slate-200 text-slate-700 hover:text-slate-900 transition-all"
@@ -144,12 +137,12 @@ export default function Navbar() {
               <Search className="w-4 h-4" />
             </button>
 
-            {/* Direct WhatsApp CTA Button */}
+            {/* Direct WhatsApp CTA Button - Hidden on mobile screens (< 640px) */}
             <a
               href={generateWhatsAppUrl()}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-3 py-2 sm:px-3.5 sm:py-2.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 border border-emerald-300 text-emerald-700 font-bold text-xs transition-all shadow-sm shrink-0"
+              className="hidden sm:inline-flex items-center gap-1.5 px-3 py-2 sm:px-3.5 sm:py-2.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 border border-emerald-300 text-emerald-700 font-bold text-xs transition-all shadow-sm shrink-0"
               title="Direct WhatsApp Desk (+92-300-5120535)"
             >
               <span className="w-2 h-2 rounded-full bg-emerald-600 animate-pulse" />
