@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { 
   Building2, Phone, Mail, MapPin, Search, Menu, X, ChevronDown, 
-  Stethoscope, FileText, Printer, Shirt, HardHat, Cpu, ShieldCheck, ArrowRight, MessageSquare, Box, FileCheck
+  Stethoscope, FileText, Printer, Shirt, HardHat, Cpu, ShieldCheck, ArrowRight, MessageSquare, Box
 } from 'lucide-react';
 import { useRFQ, DISPLAY_WHATSAPP, OFFICIAL_EMAIL } from '../context/RFQContext';
 import catalogData from '../data/catalog.json';
@@ -133,7 +133,7 @@ export default function Navbar() {
             </Link>
           </nav>
 
-          {/* Action Buttons: Search, Direct WhatsApp & Request a Quote */}
+          {/* Action Buttons: Search & Direct WhatsApp */}
           <div className="flex items-center space-x-2 sm:space-x-3">
             {/* Search Trigger */}
             <button 
@@ -149,22 +149,13 @@ export default function Navbar() {
               href={generateWhatsAppUrl()}
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden sm:inline-flex items-center gap-1.5 px-3 py-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 border border-emerald-300 text-emerald-700 font-bold text-xs transition-all shadow-sm shrink-0"
+              className="inline-flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 border border-emerald-300 text-emerald-700 font-bold text-xs transition-all shadow-sm shrink-0"
               title="Direct WhatsApp Desk (+92-300-5120535)"
             >
               <span className="w-2 h-2 rounded-full bg-emerald-600 animate-pulse" />
               <Phone className="w-3.5 h-3.5 text-emerald-600" />
               <span>{DISPLAY_WHATSAPP}</span>
             </a>
-
-            {/* Clean Request a Quote Button Linking to /contact */}
-            <Link 
-              to="/contact"
-              className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-blue-700 hover:bg-blue-800 text-white font-bold text-xs sm:text-sm transition-all shadow-sm active:scale-95 border border-blue-600"
-            >
-              <FileCheck className="w-4 h-4 text-blue-100" />
-              <span>Request a Quote</span>
-            </Link>
 
             {/* Mobile Hamburger Toggle */}
             <button 
