@@ -1,0 +1,517 @@
+{
+  "cloudinaryConfig": {
+    "cloudName": "pak-solutions",
+    "baseUrl": "https://res.cloudinary.com/pak-solutions/image/upload",
+    "defaultTransform": "f_auto,q_auto,w_800"
+  },
+  "categories": [
+    {
+      "id": "medical-supplies",
+      "slug": "medical-supplies",
+      "name": "Medical Supplies & Clinical Equipment",
+      "tagline": "Direct Sourcing for Critical Care, Diagnostic, and Ward Infrastructure",
+      "description": "Supplying tertiary care hospitals, clinical labs, and healthcare centers with certified clinical gear, diagnostic systems, and consumable disposables.",
+      "heroImage": "pse/categories/medical-hero",
+      "whatsappInquiryPrefill": "Hello Pak Solutions, I want to inquire about sourcing medical equipment and supplies.",
+      "subcategories": [
+        {
+          "id": "respiratory-critical-care",
+          "title": "Critical Care Systems",
+          "cloudinaryImage": "pse/medical/respiratory-critical-care",
+          "imageAlt": "Advanced Intensive Care Ventilator and Respiratory Support System",
+          "highlightBadge": "Hospital Grade",
+          "scopeDescription": "High-dependency and ICU equipment sourced directly from certified medical equipment manufacturers.",
+          "sampleItems": [
+            "ICU & Transport Ventilators (e.g., VG70)",
+            "CPAP & BiPAP Non-Invasive Units",
+            "Medical Oxygen Concentrators & High-Pressure Cylinders",
+            "Emergency Ambu Bags & Laryngoscope Sets"
+          ]
+        },
+        {
+          "id": "diagnostic-monitoring",
+          "title": "Diagnostic & Patient Monitoring",
+          "cloudinaryImage": "pse/medical/diagnostic-monitoring",
+          "imageAlt": "12-Channel Diagnostic ECG Machine and Multi-parameter Patient Monitor",
+          "highlightBadge": "Certified Precision",
+          "scopeDescription": "Precision clinical instruments and continuous vital monitoring setups for wards, ICUs, and OPD clinics.",
+          "sampleItems": [
+            "12-Channel & 3-Channel Diagnostic ECG Machines",
+            "Multi-Parameter Patient Monitors & CTG Systems",
+            "Digital & Aneroid BP Cuffs, Pulse Oximeters, Stethoscopes",
+            "ENT Diagnostic Sets, Ophthalmoscopes, Medical Thermometers"
+          ]
+        },
+        {
+          "id": "ward-ot-furniture",
+          "title": "Ward Infrastructure & OT Furniture",
+          "cloudinaryImage": "pse/medical/ward-ot-furniture",
+          "imageAlt": "Hydraulic OT Surgical Table and Hospital Fowler Ward Bed",
+          "highlightBadge": "Heavy-Duty Fabrication",
+          "scopeDescription": "Ergonomic, durable patient handling fixtures and surgical room installations designed for continuous clinical use.",
+          "sampleItems": [
+            "Electric & Manual Multi-Function Fowler Hospital Beds",
+            "Hydraulic Operating Theater (OT) Tables & Delivery Beds",
+            "Emergency Crash Carts & Medicine Trolleys",
+            "IV Stands, Privacy Ward Screens, Patient Stools, Wheelchairs"
+          ]
+        },
+        {
+          "id": "consumables-specialty-papers",
+          "title": "Clinical Consumables, Disposables & Specialty Papers",
+          "cloudinaryImage": "pse/medical/consumables-papers",
+          "imageAlt": "Surgical Gloves, Masks, and Ultrasound ECG Thermal Paper Rolls",
+          "highlightBadge": "Bulk Procurement",
+          "scopeDescription": "High-turnover daily clinical supplies, diagnostic recording rolls, and medical-grade disposables.",
+          "sampleItems": [
+            "Surgical & Examination Gloves (Latex / Nitrile)",
+            "Surgical 3-Ply & N95 Masks, IDP/OPD Patient Examination Kits",
+            "ECG Recording Charts, CTG Papers, Ultrasound Paper (UPP Rolls)",
+            "Biohazard Sharp Disposal Containers & Color-Coded Waste Bins"
+          ]
+        },
+        {
+          "id": "radiology-laboratory",
+          "title": "Radiology, Lab Kits & Specialized Consumables",
+          "cloudinaryImage": "pse/medical/radiology-lab",
+          "imageAlt": "Clinical Laboratory Glassware, Student Kits, and X-Ray Films",
+          "highlightBadge": "Specialized Sourcing",
+          "scopeDescription": "Specialty imaging consumables, analytical reagents, and institutional educational lab kits.",
+          "sampleItems": [
+            "Medical X-Ray Films & Developing Hangers",
+            "Specialized Bio-Lab & Engineering Lab Student Workstation Kits",
+            "Analytical Lab Reagents, Test Tubes & Consumables",
+            "Fiducial Gold Implanted Markers for Oncology/Radiotherapy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "office-stationery",
+      "slug": "stationery",
+      "name": "Office Fleet, IT Hardware & Stationery",
+      "tagline": "Complete Workplace Outfitting & Daily Enterprise Supplies",
+      "description": "Complete corporate procurement covering executive workplace furniture, computing infrastructure, printing fleets, and bulk office supplies.",
+      "heroImage": "pse/categories/office-hero",
+      "whatsappInquiryPrefill": "Hello Pak Solutions, I need a bulk quote for office fleet, IT hardware, and stationery supplies.",
+      "subcategories": [
+        {
+          "id": "workplace-computing-hardware",
+          "title": "Enterprise Computing & IT Hardware",
+          "cloudinaryImage": "pse/office/computing-hardware",
+          "imageAlt": "Corporate Business Workstations, Laptops, and Network Peripherals",
+          "highlightBadge": "Tier-1 Brands",
+          "scopeDescription": "Standardized business computers, peripherals, and reliable local network hardware for enterprise setups.",
+          "sampleItems": [
+            "Commercial Laptops & Business Desktop Towers",
+            "High-Resolution Office Monitors & Dual-Display Setups",
+            "Enterprise Keyboards, Mice, HD Webcams, Call-Center Headsets",
+            "Network Switches, Commercial Routers, Wi-Fi Access Points, SSDs"
+          ]
+        },
+        {
+          "id": "commercial-printers-power",
+          "title": "Commercial Printers, Scanners & Power Backups",
+          "cloudinaryImage": "pse/office/printers-power",
+          "imageAlt": "Multifunction Enterprise Laser Printer and Online Rackmount UPS Unit",
+          "highlightBadge": "High-Duty Cycle",
+          "scopeDescription": "Heavy-duty print fleets, imaging systems, and continuous online power backup infrastructure.",
+          "sampleItems": [
+            "High-Speed Network Laser Printers & Multi-Function Color Units",
+            "High-Resolution Flatbed & Sheetfed Document Scanners",
+            "Original & Compatible High-Yield Toner Cartridges",
+            "Pure Sine Wave Online UPS Units for Server & PC Power Protection"
+          ]
+        },
+        {
+          "id": "executive-furniture",
+          "title": "Executive Office Furniture & Ergonomic Fixtures",
+          "cloudinaryImage": "pse/office/executive-furniture",
+          "imageAlt": "Modern Ergonomic Mesh Office Chairs and Modular Workstation Desks",
+          "highlightBadge": "Custom Finishes",
+          "scopeDescription": "Modern ergonomic seating, modular team workstations, and corporate conference room setups.",
+          "sampleItems": [
+            "Ergonomic High-Back Executive & Mesh Operator Chairs",
+            "Modular Office Desking Systems & Privacy Partition Cubicles",
+            "Conference & Boardroom Meeting Tables",
+            "Steel Filing Cabinets, Credenzas & Storage Shelving"
+          ]
+        },
+        {
+          "id": "bulk-stationery-utilities",
+          "title": "Bulk Office Stationery & Daily Utilities",
+          "cloudinaryImage": "pse/office/bulk-stationery",
+          "imageAlt": "A4 Copier Paper Reams, Custom Ring Binders, and Office Stationery",
+          "highlightBadge": "Direct Mill Sourcing",
+          "scopeDescription": "Consumable paper reams, filing organizers, custom corporate binders, and desk essentials.",
+          "sampleItems": [
+            "Premium A4/Legal Copier Paper Reams (Bulk Pallets)",
+            "Custom Ring Binders, Arch Files, File Covers, Folders",
+            "Corporate Letterheads, Invoices, Delivery Challan Books",
+            "Desk Organizers, Staplers, Highlighters, Custom Rubber Stamps"
+          ]
+        },
+        {
+          "id": "conference-presentation",
+          "title": "Conference & Presentation Systems",
+          "cloudinaryImage": "pse/office/conference-presentation",
+          "imageAlt": "Commercial Meeting Room Projector and Interactive Presentation Screen",
+          "highlightBadge": "Complete AV",
+          "scopeDescription": "Audio-visual systems and interactive display equipment for corporate boardrooms and auditoriums.",
+          "sampleItems": [
+            "High-Lumen HD Business Projectors & Motorized Screens",
+            "Wireless Presentation Clickers & Integrated Audio Podiums",
+            "Conference Room Public Address (PA) Sound Systems & Microphones",
+            "Mobile Flipcharts, Magnetic Whiteboards & Notice Boards"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commercial-printing",
+      "slug": "printing",
+      "name": "Commercial Printing & Corporate Merchandise",
+      "tagline": "Precision Printing, Large-Format Signage, and Brand Assets",
+      "description": "Full-spectrum printing services, architectural signage, promotional corporate gifts, and smart identity cards.",
+      "heroImage": "pse/categories/printing-hero",
+      "whatsappInquiryPrefill": "Hello Pak Solutions, I would like to request a quote for commercial printing and branded merchandise.",
+      "subcategories": [
+        {
+          "id": "signage-large-format",
+          "title": "Signage & Large-Format Outdoor Media",
+          "cloudinaryImage": "https://masterbundles.com/wp-content/uploads/2023/04/billboard_3--143-2048x1365.jpg",
+          "imageAlt": "Large Format Commercial Outdoor Billboard Signage",
+          "highlightBadge": "Architectural Grade",
+          "scopeDescription": "Weather-resistant commercial signage, precision laser-cut branding, and high-impact event displays.",
+          "sampleItems": [
+            "3D Acrylic & Metallic LED Backlit Channel Letter Signage",
+            "High-Resolution Panaflex Hoardings, Billboards & Banners",
+            "Retractable Roll-Up Stands, X-Banners & Promotional Danglers",
+            "Precision CNC Laser-Cut Acrylic Logos & Wayfinding Plaques"
+          ]
+        },
+        {
+          "id": "corporate-collateral-smartcards",
+          "title": "Corporate Smart Identification",
+          "cloudinaryImage": "https://tse3.mm.bing.net/th/id/OIP.CsasNelRlclboRfKfm4DFwHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+          "imageAlt": "PVC Smart Identification Cards and Access Security Badges",
+          "highlightBadge": "Offset & Digital",
+          "scopeDescription": "Official corporate smart identity cards, PVC proximity security badges, and RFID access credentials.",
+          "sampleItems": [
+            "PVC Identity Cards & Lanyard Assemblies",
+            "UHF RFID Smart Cards & Contactless Proximity Tags",
+            "Visiting Cards (Matte/Gloss Lamination, Spot UV, Embossed)",
+            "Custom Corporate Presentation Folders, Brochures, Flyers, Annual Reports"
+          ]
+        },
+        {
+          "id": "branded-merchandise-swag",
+          "title": "Branded Merchandise, Awards & Corporate Gifts",
+          "cloudinaryImage": "https://allen-signs.co.uk/wp-content/uploads/2024/08/custom-branded-merchandise-set-png.webp",
+          "imageAlt": "Custom Corporate Branded Merchandise Set, Executive Gifts and Promotional Swag",
+          "highlightBadge": "Laser Engraved / Sublimated",
+          "scopeDescription": "High-impact promotional giveaways, employee onboarding swag, and formal recognition awards.",
+          "sampleItems": [
+            "Sublimation Ceramic Mugs (Custom Logos, Magic/Color Change)",
+            "Screen-Printed & Embroidered Promotional Polo T-Shirts & Caps",
+            "Laser-Engraved Executive Metal Pens & Branded Keychains",
+            "Custom Crystal/Wooden Recognition Shields, Medals & Trophies"
+          ]
+        },
+        {
+          "id": "hospital-specialty-printing",
+          "title": "Institutional Form Printing",
+          "cloudinaryImage": "https://5.imimg.com/data5/SELLER/Default/2022/1/DK/EQ/LG/109307757/letterhead-envelop-visiting-card-id-card-1-1000x1000.jpg",
+          "imageAlt": "Custom Printed Institutional Stationery, Letterheads, Envelopes and Forms",
+          "highlightBadge": "Compliance Printing",
+          "scopeDescription": "Specialized paper stock and pre-printed stationery designed for hospitals, diagnostic labs, and universities.",
+          "sampleItems": [
+            "Pre-Printed Clinical Diagnostic & Lab Report Sheets",
+            "Specialized Barcode Labels & Specimen Tracking Stickers",
+            "Multi-Part Carbonless Prescription Pads & Patient File Folders",
+            "University Prospectuses, Examination Answer Sheets & Degree Folders"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apparel-linen",
+      "slug": "clothing-linen",
+      "name": "Institutional Apparel, PPE & Linen",
+      "tagline": "Industrial-Grade Fabrics, Medical Scrubs, and Protective Gear",
+      "description": "Durable textile manufacturing and direct garment sourcing for healthcare facilities, hospitality chains, and industrial workforce safety.",
+      "heroImage": "pse/categories/apparel-hero",
+      "whatsappInquiryPrefill": "Hello Pak Solutions, I need pricing for bulk institutional apparel, linens, or safety PPE.",
+      "subcategories": [
+        {
+          "id": "healthcare-apparel-packs",
+          "title": "Healthcare Garments & Surgical Packs",
+          "cloudinaryImage": "http://workdayz.in/static/media/healthcare.e86df28ee2391ab2e83a.png",
+          "imageAlt": "Doctor Scrub Suits, Surgical OT Gowns, and Clinical Protective Attire",
+          "highlightBadge": "Autoclavable Fabrics",
+          "scopeDescription": "Sterilizable medical apparel tailored for surgical suites, doctors, nurses, and hospital inpatients.",
+          "sampleItems": [
+            "Doctor & Nurse Scrub Suits (Cotton/Poly Blends with Custom Embroidery)",
+            "Surgeon OT Gowns, Barrier Isolation Gowns, Patient Uniforms",
+            "Sterile Surgical Op Caps, Elasticated Shoe Covers, OT Towels",
+            "Complete Inpatient Admission Kits (IDP Packs & OPD Drapes)"
+          ]
+        },
+        {
+          "id": "ward-bedding-textiles",
+          "title": "Hospital Ward Bedding & Institutional Linen",
+          "cloudinaryImage": "https://yintextextile.com/wp-content/uploads/2025/05/Spotlessly-clean-hospital-bed-with-fresh-white-bedding-emphasizing-hygiene-and-patient-ready-environment.webp",
+          "imageAlt": "Heavy-Duty Hospital Bed Sheets, Thermal Blankets, and Dignity Covers",
+          "highlightBadge": "High-Washing Endurance",
+          "scopeDescription": "Industrial-laundry tested linens, waterproof protective covers, and patient comfort textiles.",
+          "sampleItems": [
+            "Hospital Bed Sheets (Bleached White, Color-Fast, Custom Logo Printing)",
+            "Matching Institutional Pillow Covers & Waterproof Mattress Protectors",
+            "Thermal Hospital Blankets & Heavy Woolen Winter Blankets",
+            "Washable Dignity Sheets & Draw Sheets"
+          ]
+        },
+        {
+          "id": "industrial-ppe-safety",
+          "title": "Industrial Safety Wear & Personal Protective Equipment",
+          "cloudinaryImage": "https://img.freepik.com/premium-photo/blue-safety-helmet-with-earphones-goggles-isolated-white-background_488220-50279.jpg",
+          "imageAlt": "Reflective High-Visibility Safety Vests and Steel-Toe Construction Boots",
+          "highlightBadge": "Safety Certified",
+          "scopeDescription": "Rugged safety apparel and protective gear for construction, engineering, and factory environments.",
+          "sampleItems": [
+            "High-Visibility Reflective Safety Vests (Fluorescent Orange/Green)",
+            "Heavy-Duty Leather & Cut-Resistant Work Safety Gloves",
+            "Steel-Toe Industrial Safety Boots & Slip-Resistant Work Footwear",
+            "Heavy-Duty Chemical & Grinding Aprons, Safety Helmets"
+          ]
+        },
+        {
+          "id": "corporate-hospitality-uniforms",
+          "title": "Corporate, Hospitality & Workwear Uniforms",
+          "cloudinaryImage": "pse/apparel/corporate-hospitality",
+          "imageAlt": "Professional Chef Coats, Waiter Uniforms, and Front-Desk Corporate Wear",
+          "highlightBadge": "Bespoke Tailoring",
+          "scopeDescription": "Custom tailored uniform lines for security personnel, hospitality teams, and corporate staff.",
+          "sampleItems": [
+            "Professional Chef Coats, Kitchen Aprons & Hospitality Waiter Uniforms",
+            "Corporate Front-Desk Suiting, Blazers & Executive Shirts",
+            "Security Guard Uniform Sets (Shirts, Trousers, Berets, Belts)",
+            "Institutional Sports Team Kits, Jerseys & Athletic Tracksuits"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering-civil",
+      "slug": "civil-works",
+      "name": "Engineering & Complete Civil Works",
+      "tagline": "Structural Renovations, Architectural Fit-Outs, and Facility Maintenance",
+      "description": "On-demand contracting teams handling commercial fit-outs, interior refurbishments, structural aluminum, and comprehensive facility overhauls.",
+      "heroImage": "pse/categories/civil-hero",
+      "whatsappInquiryPrefill": "Hello Pak Solutions, I want to discuss a project scope for civil works and facility maintenance.",
+      "subcategories": [
+        {
+          "id": "fitouts-drywall-ceilings",
+          "title": "Commercial Interior Fit-Outs & Ceilings",
+          "cloudinaryImage": "pse/civil/fitouts-ceilings",
+          "imageAlt": "Modern Suspended Gypsum Ceiling and Drywall Partition System",
+          "highlightBadge": "Complete Execution",
+          "scopeDescription": "Acoustic drywall partitioning, drop ceiling systems, and complete corporate floor transformations.",
+          "sampleItems": [
+            "Gypsum Board & Mineral Fiber Suspended Ceiling Systems",
+            "Drywall Acoustic Room Partitions & Wall Paneling",
+            "Commercial Vinyl, Epoxy Flooring & Vitrified Tile Masonry",
+            "Architectural Commercial Painting & Weather-Shield Exterior Finishes"
+          ]
+        },
+        {
+          "id": "architectural-fabrication",
+          "title": "Architectural Aluminum, Glass & Woodwork",
+          "cloudinaryImage": "pse/civil/fabrication-woodwork",
+          "imageAlt": "Tempered Glass Office Partition and Aluminum Window Profiling",
+          "highlightBadge": "Precision Fabrication",
+          "scopeDescription": "Custom engineered aluminum profiles, structural glazing, and architectural woodwork.",
+          "sampleItems": [
+            "Powder-Coated Aluminum Window Frames & Glazed Facades",
+            "Frameless Tempered Glass Doors & Office Partitions",
+            "Custom Solid Wood & MDF Storage Cabinets, Reception Counters, Doors",
+            "Structural Steel Fabrication, Safety Grills & Stairway Railings"
+          ]
+        },
+        {
+          "id": "mep-civil-procurement",
+          "title": "MEP Infrastructure & Civil Procurement",
+          "cloudinaryImage": "pse/civil/mep-procurement",
+          "imageAlt": "Commercial Electrical Overhauls, Plumbing Piping, and Bulk Materials",
+          "highlightBadge": "BOQ Sourcing",
+          "scopeDescription": "End-to-end mechanical, electrical, plumbing renovations and direct bulk construction material supply.",
+          "sampleItems": [
+            "Commercial Electrical Wiring, Distribution Boards & LED Lighting Arrays",
+            "Sanitary Ware, Commercial Plumbing Lines & Pressure Pumping Units",
+            "Direct Bulk Sourcing of Cement, Sand, Steel Rebars & Bricks",
+            "Facility Landscaping, Turf Installation & Grounds Maintenance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "it-services-automation",
+      "slug": "it-services",
+      "name": "IT Services & Enterprise Automation",
+      "tagline": "Custom Software, Cloud Architectures, and Workflow Automation",
+      "description": "Engineering modern digital platforms, configuring scalable business email systems, and automating operational workflows.",
+      "heroImage": "pse/categories/it-hero",
+      "whatsappInquiryPrefill": "Hello Pak Solutions, I want to discuss a software development or IT automation project.",
+      "subcategories": [
+        {
+          "id": "custom-software-web",
+          "title": "Custom Software & Web Application Development",
+          "cloudinaryImage": "pse/it/software-development",
+          "imageAlt": "Modern Enterprise Web Portal Dashboard on Laptop and Tablet",
+          "highlightBadge": "Full-Stack Engineering",
+          "scopeDescription": "Tailored web applications, internal enterprise dashboards, customer portals, and mobile-friendly systems.",
+          "sampleItems": [
+            "Enterprise Web Applications (Next.js, React, Node.js, NestJS, .NET)",
+            "Internal Management Systems, ERP Dashboards & Role-Based Portals",
+            "RESTful & GraphQL API Development and Legacy Database Integrations",
+            "Responsive E-Commerce Engines & Custom Payment Gateway Workflows"
+          ]
+        },
+        {
+          "id": "ai-workflow-automation",
+          "title": "AI Integrations & Workflow Automation",
+          "cloudinaryImage": "https://moringaschool.com/wp-content/uploads/2025/10/AI-Automation.jpg",
+          "imageAlt": "Visual AI Workflow Automation Architecture connecting APIs and enterprise systems",
+          "highlightBadge": "Efficiency Optimization",
+          "scopeDescription": "Eliminating manual data entry with custom integration pipelines, webhook orchestration, and AI-assisted workflows.",
+          "sampleItems": [
+            "Automated Multi-App Pipelines (Make.com, n8n, Custom Webhooks)",
+            "Automated PDF/Invoice Parsing & Direct Database Ingestion",
+            "AI-Powered Customer Support Chatbots & Lead Generation Connectors",
+            "Automated CRM Lead Routing & Notification Systems (WhatsApp/Slack/Email)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security-facilities",
+      "slug": "security-facilities",
+      "name": "Security, Telecom & Solar Facilities",
+      "tagline": "Surveillance Systems, PTA-Approved Radios, and Industrial Solar Backups",
+      "description": "High-security surveillance, wireless radio communications, and complete industrial solar power array infrastructure.",
+      "heroImage": "pse/categories/security-hero",
+      "whatsappInquiryPrefill": "Hello Pak Solutions, I need a quote for enterprise security, telecom, or solar power equipment.",
+      "subcategories": [
+        {
+          "id": "security-surveillance-access",
+          "title": "Security, Surveillance & Access Control",
+          "cloudinaryImage": "pse/security/surveillance-access",
+          "imageAlt": "Commercial IP CCTV Cameras, NVR Array, and Biometric Turnstile",
+          "highlightBadge": "Enterprise Security",
+          "scopeDescription": "Perimeter defense systems, IP video monitoring, and integrated employee access control.",
+          "sampleItems": [
+            "High-Definition IP CCTV Camera Arrays & Network Video Recorders (NVRs)",
+            "Walk-Through Metal Detector Gates & Handheld Security Scanners",
+            "Biometric Time & Attendance Systems (Fingerprint / Facial Recognition)",
+            "RFID Electronic Access Control Readers, Magnetic Locks & Turnstiles"
+          ]
+        },
+        {
+          "id": "telecommunications-radio",
+          "title": "Telecommunications & Wireless Radio Systems",
+          "cloudinaryImage": "pse/security/telecom-radio",
+          "imageAlt": "Handheld Two-Way Wireless Radio Transceivers and Base Station Antennas",
+          "highlightBadge": "PTA Compliant",
+          "scopeDescription": "Two-way radio communication sets, repeater hardware, and long-range RF accessories.",
+          "sampleItems": [
+            "Handheld VHF, UHF, and HF Wireless Two-Way Radio Transceivers",
+            "Base Station Master Units, Repeaters & High-Gain Omnidirectional Antennas",
+            "Low-Loss Coaxial Cables, Connectors, Mounting Brackets & Power Adapters",
+            "Heavy-Duty Radio Battery Packs & Multi-Unit Gang Chargers"
+          ]
+        },
+        {
+          "id": "solar-energy-backup",
+          "title": "Solar Energy, Power Arrays & Deep-Cycle Backups",
+          "cloudinaryImage": "https://tse2.mm.bing.net/th/id/OIP.ZBJ-IIaatrXCRj0Jx9WH2gHaGN?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+          "imageAlt": "Rooftop Commercial Solar Photovoltaic Panels and Inverters Array",
+          "highlightBadge": "Renewable Power",
+          "scopeDescription": "Industrial solar installations, hybrid inverter configurations, and heavy-duty storage battery banks.",
+          "sampleItems": [
+            "Tier-1 Monocrystalline Solar Photovoltaic (PV) Panels",
+            "Industrial Hybrid Solar Inverters & Grid-Tie Systems",
+            "Deep-Cycle Lithium (LiFePO4) & Tubular Solar Storage Battery Banks",
+            "Commercial Solar Water Heating Collectors & Thermosyphon Systems"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "institutional-polymers",
+      "slug": "institutional-polymers",
+      "name": "Institutional Facility Amenities & Polymers",
+      "tagline": "Bulk Polymer Containers, Campus Utility Hardware, and Grounds Supplies",
+      "description": "High-volume polymer containers, educational sports gear, emergency safety utilities, and general facility grounds equipment.",
+      "heroImage": "pse/categories/polymers-hero",
+      "whatsappInquiryPrefill": "Hello Pak Solutions, I need pricing for bulk institutional facility amenities or polymer containers.",
+      "subcategories": [
+        {
+          "id": "industrial-pharma-polymers",
+          "title": "Industrial & Pharma Polymer Containers",
+          "cloudinaryImage": "https://img2.exportersindia.com/product_images/bc-full/2022/1/3630844/pharma-containers-1642829462-6168892.jpeg",
+          "imageAlt": "Food Grade Polymer Bottles, Drums, and Pharma Containers",
+          "highlightBadge": "Bulk Utilities",
+          "scopeDescription": "High-density polyethylene (HDPE) containers, chemical jerrycans, and pharmaceutical sampling bottles.",
+          "sampleItems": [
+            "Food-Grade & Pharmaceutical Polymer Bottles (20ml to 500ml)",
+            "HDPE Chemical Jerrycans & Bulk Storage Carboys",
+            "Heavy-Duty Industrial Plastic Drums & Pallet Storage Containers",
+            "Insulated Multi-Gallon Water Coolers & Heavy Storage Jars"
+          ]
+        },
+        {
+          "id": "campus-facilities-seating",
+          "title": "Campus Amenities & Commercial Plastic Seating",
+          "cloudinaryImage": "https://p.turbosquid.com/ts-thumb/8w/KxvKJN/ABv4Wl0j/airport_seating_01/jpg/1377698386/1920x1080/fit_q87/58eed87c06d33fb7aca6813e184d58f2ba03f92c/airport_seating_01.jpg",
+          "imageAlt": "Commercial Molded Plastic Airport and Campus Seating Systems",
+          "highlightBadge": "Durable Molding",
+          "scopeDescription": "All-weather molded plastic seating, cafeteria tables, outdoor grounds waste receptacles, and campus furniture.",
+          "sampleItems": [
+            "Commercial Heavy-Duty Molded Plastic Chairs & Stackable Seating",
+            "Auditorium & Stadium Polymer Seating Systems",
+            "Institutional Cafeteria Tables & Campus Outdoor Benches",
+            "Color-Coded Heavy Recycling Bins & Waste Containers"
+          ]
+        },
+        {
+          "id": "safety-fire-emergency",
+          "title": "Fire Safety & Emergency Response Utilities",
+          "cloudinaryImage": "https://tse4.mm.bing.net/th/id/OIP.TdoLNG3kCbjrFNEDBnanGQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+          "imageAlt": "Fire Extinguishers, First Aid Kits, and Emergency Response Utilities",
+          "highlightBadge": "Safety Certified",
+          "scopeDescription": "Mandatory building safety installations, automated fire suppression, emergency evacuation blankets, and first-aid stations.",
+          "sampleItems": [
+            "Automated & Portable Dry Chemical Powder Fire Extinguishers",
+            "Heavy Emergency Evacuation Blankets & Smoke Detector Alarms",
+            "Wall-Mounted Enterprise First Aid Kits & Eyewash Stations",
+            "Emergency Fire Hoses, Nozzles & Hydrant Cabinet Assemblies"
+          ]
+        },
+        {
+          "id": "sports-recreation-gear",
+          "title": "Institutional Sports & Outdoor Recreation Gear",
+          "cloudinaryImage": "https://tse4.mm.bing.net/th/id/OIP.janh1Rl2FjeR5NSCwzsKiwHaFa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+          "imageAlt": "Institutional Athletic Sports Equipment and Outdoor Recreation Gear",
+          "highlightBadge": "Institutional Grade",
+          "scopeDescription": "Complete athletic gear, sports field installations, gymnasium equipment, and outdoor expedition kits for schools and universities.",
+          "sampleItems": [
+            "Cricket Bats, Leather Balls, Stumps & Protection Armor Nets",
+            "Match Footballs, Basketballs, Volleyballs & Badminton Sets",
+            "Gymnasium Barbells, Weight Plates, Benches & Rubber Flooring Tiles",
+            "Institutional Expedition Camping Tents & Outdoor Ground Sheets"
+          ]
+        }
+      ]
+    }
+  ]
+}
