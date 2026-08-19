@@ -46,7 +46,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="max-w-3xl space-y-4">
             <div className="inline-flex items-center gap-2 text-xs font-extrabold text-blue-700 uppercase tracking-widest bg-blue-100 px-3.5 py-1.5 rounded-full border border-blue-200 shadow-sm">
-              <MapPin className="w-4 h-4 text-blue-700" /> ISLAMABAD HEADQUARTERS & TENDER DESK
+              <MapPin className="w-4 h-4 text-blue-700" /> CONTACT INFORMATION & TENDER DESK
             </div>
             <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-tight">
               Contact Us & BOQ Tender Submission
